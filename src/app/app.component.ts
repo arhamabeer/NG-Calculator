@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculator';
+
+  btnClick(e:number) {
+    console.log(e)
+  }
+  calculate(){
+    let inp = document.getElementById('inp')
+    console.log(inp.native)
+  }
+
+
 }
