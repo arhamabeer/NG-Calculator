@@ -3,24 +3,27 @@
     <h1>NG CALCULATOR</h1>
   </div>
   <div class="inp">
-    <input id='inp' class="input" type="text" #myInp />
+    <input id='inp' class="input" type="text" #input />
+  </div>
+  <div>
+    <button class="clear" (click)="this.clear(input)" >Clear</button>
   </div>
   <div class="btn">
-    <button (click)="this.btnClick(7)" >7</button>
-    <button (click)="this.btnClick(8)">8</button>
-    <button (click)="this.btnClick(9)">9</button>
-    <button (click)="this.btnClick(7)">/</button>
-    <button (click)="this.btnClick(4)">4</button>
-    <button (click)="this.btnClick(5)">5</button>
-    <button (click)="this.btnClick(6)">6</button>
-    <button (click)="this.btnClick(7)">*</button>
-    <button (click)="this.btnClick(1)">1</button>
-    <button (click)="this.btnClick(2)">2</button>
-    <button (click)="this.btnClick(3)">3</button>
-    <button (click)="this.btnClick(7)">-</button>
-    <button (click)="this.btnClick(0)">0</button>
-    <button (click)="this.btnClick(0)">.</button>
-    <button (click)="this.calculate()">=</button>
-    <button (click)="this.btnClick(7)">+</button>
+    <button (click)="this.btnClick(input, 7)" >7</button>
+    <button (click)="this.btnClick(input,8)">8</button>
+    <button (click)="this.btnClick(input,9)">9</button>
+    <button (click)="this.btnClick(input,'/')">/</button>
+    <button (click)="this.btnClick(input,4)">4</button>
+    <button (click)="this.btnClick(input,5)">5</button>
+    <button (click)="this.btnClick(input,6)">6</button>
+    <button (click)="this.btnClick(input,'*')">*</button>
+    <button (click)="this.btnClick(input,1)">1</button>
+    <button (click)="this.btnClick(input,2)">2</button>
+    <button (click)="this.btnClick(input,3)">3</button>
+    <button (click)="this.btnClick(input,'-')">-</button>
+    <button (click)="this.btnClick(input,0)">0</button>
+    <button (click)="this.btnClick(input,'.')">.</button>
+    <button (click)="this.calculate(input)">=</button>
+    <button (click)="this.btnClick(input,'+')">+</button>
   </div>
 </div>
