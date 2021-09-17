@@ -1,39 +1,38 @@
-.main{
-    border: 3px solid blue;
-    width: 300px;
-    margin: 100px auto;
-    background-color: tan;
-    padding: 10px;
+.main {
+  border: 3px solid blue;
+  width: 300px;
+  margin: 100px auto;
+  background-color: tan;
+  padding: 10px;
 }
-.btn{
-    width: 100%;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-
+.btn {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
-.inp{
-    width: 95%;
+.inp {
+  width: 95%;
 }
-.input{
-    margin-left: 10px;
-    width: 94%;
-    height: 50px;
-    border-radius: 5px;
-    color: white;
-    background-color: black;
+.input {
+  margin-left: 10px;
+  width: 94%;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
 }
 button {
-    width: 22%;
-    height: 50px;
-    margin: 1px;
-    border-radius: 5px;
-    font-weight: bolder;
-    font-size: 22px;
+  width: 22%;
+  height: 50px;
+  margin: 1px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 22px;
 }
-.clear{
-    width: 85%;
-    margin-left: 19px;
-    margin-top: 10px;
+.clear {
+  width: 85%;
+  margin-left: 19px;
+  margin-top: 10px;
 }
